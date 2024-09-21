@@ -1,0 +1,47 @@
+[
+    {
+      "name": "General Checkup",
+      "description": "A comprehensive assessment of overall health, including vital signs, physical examination, and basic blood tests.",
+      "price": 1000
+    },
+    {
+      "name": "Dental Cleaning and Checkup",
+      "description": "Professional cleaning of teeth, removal of tartar, and examination for oral health issues.",
+      "price": 800
+    },
+    {
+      "name": "Eye Examination",
+      "description": "Comprehensive eye exam to assess vision, detect eye diseases, and prescribe corrective lenses if needed.",
+      "price": 1200
+    },
+    {
+      "name": "Cardiovascular Checkup",
+      "description": "Evaluation of heart health, including ECG, blood pressure measurement, and cholesterol testing.",
+      "price": 1500
+    },
+    {
+      "name": "Diabetes Screening",
+      "description": "Blood sugar test to assess the risk or presence of diabetes.",
+      "price": 500
+    },
+    {
+      "name": "Respiratory Checkup",
+      "description": "Evaluation of lung function and respiratory health, including spirometry.",
+      "price": 1200
+    },
+    {
+      "name": "Skin Cancer Screening",
+      "description": "Visual examination of the skin for any signs of skin cancer.",
+      "price": 800
+    },
+    {
+      "name": "Women's Health Checkup",
+      "description": "Comprehensive evaluation of reproductive health, including breast exam and Pap smear.",
+      "price": 1500
+    },
+    {
+      "name": "Men's Health Checkup",
+      "description": "Assessment of prostate health, testosterone levels, and overall well-being.",
+      "price": 1200
+    }
+  ]
