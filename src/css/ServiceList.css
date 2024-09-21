@@ -31,11 +31,7 @@
     margin-bottom: 10px;
   }
 
-  h2{
-    margin-left: 30px;
-    padding: 20px;
-    /* font-weight: bold; */
-  }
+
 
   .button-container {
     display: flex;

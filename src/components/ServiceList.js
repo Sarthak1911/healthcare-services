@@ -4,7 +4,7 @@ import "../css/ServiceList.css";
 const ServiceList = ({ list, editService, deleteService }) => {  // Accept deleteService as a prop
     return (
         <div className="bcontainer">
-            <h3>HealthCare Services:</h3>
+            <h3 className='mx-5 my-4'>HealthCare Services:</h3>
             <div className="lcontainer">
                 {list.map((service, index) => (
                     <div className="card" key={index}>

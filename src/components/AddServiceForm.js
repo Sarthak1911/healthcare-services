@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "../css/AddServiceForm.css"
 
 const AddServiceForm = ({ addService, updateService, serviceToEdit }) => {
   const [name, setName] = useState('');
@@ -45,7 +46,7 @@ const AddServiceForm = ({ addService, updateService, serviceToEdit }) => {
   return (
     <form onSubmit={handleSubmit}>
       <h2>{isEditing ? 'Edit Service' : 'Add New Service'}</h2>
-      <div className="form-group">
+      <div className="form-group my-2">
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -57,7 +58,7 @@ const AddServiceForm = ({ addService, updateService, serviceToEdit }) => {
           required
         />
       </div>
-      <div className="form-group">
+      <div className="form-group my-2">
         <label htmlFor="description">Description:</label>
         <textarea
           className="form-control"
@@ -68,7 +69,7 @@ const AddServiceForm = ({ addService, updateService, serviceToEdit }) => {
           required
         />
       </div>
-      <div className="form-group">
+      <div className="form-group my-2">
         <label htmlFor="price">Price:</label>
         <input
           type="number"
@@ -80,7 +81,7 @@ const AddServiceForm = ({ addService, updateService, serviceToEdit }) => {
           required
         />
       </div>
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary my-2">
         {isEditing ? 'Update Service' : 'Add Service'}
       </button>
     </form>
